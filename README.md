@@ -32,9 +32,9 @@ learn_rust git:(main) ✗
 
 ### Tools of rust
 
-** Cargo ** is the rust compilation manager, package manager and release manager, the most powerful general purpose tools for the rust development
-** rustc ** is the rust complier. Usuallly we don't direct invoke this tools, cargo will help us to deal with the complier.
-** rustdoc ** is the rust documentation tools, with the nice format comments in the rust source code, rustdoc can help us to produce the HTML format development documents.
+- **Cargo** is the rust compilation manager, package manager and release manager, the most powerful general purpose tools for the rust development
+- **rustc** is the rust complier. Usuallly we don't direct invoke this tools, cargo will help us to deal with the complier.
+- **rustdoc** is the rust documentation tools, with the nice format comments in the rust source code, rustdoc can help us to produce the HTML format development documents.
 
 ## Hello Rust
 
