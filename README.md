@@ -55,3 +55,19 @@ Cargo.toml is the cargo package management config file, just like nodejs pakcage
 Cargo.lock is the lock file, which will enable cargo to build with reproduciable build production.
 src/ directory is the rust source code resides, put all the source code under this dir.
 target/ is the directory of the cargo build, the lib and binary will in this directory.
+
+# Ownership of the Rust
+
+Rust memory management has its unique method, the ownership of Rust goven the rust programme memory management.
+
+There are there type of the memory management methods:
+
+- Garbage Collection, like Python and Java, the development don't worry about the memory management.
+- Explicitly allocation and release memory, like C/C++, lead to memory leak problme and security exploite
+- Ownership Rules in Rust
+
+## Rules of Ownership
+
+- Each Value in Rust has an owner
+- There can only be one owner at a time
+- When the owner goes out of the scope, the value will be dropped.
