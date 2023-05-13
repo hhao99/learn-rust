@@ -80,8 +80,33 @@ Declar a variable, rust will allocate the memory; when the the variable is out o
 
 ### Variables Bindings
 
+Variable declaration and assignments:
+
 ```rust
 fn main() {
-    let x: i32 = 52;
+    let x = 52; // type is i32, implicit
 }
 ```
+
+Type Annotation
+
+```rust
+fn main() {
+    let x: i32 = 52; // type is i32, annotated
+}
+```
+
+Mutability
+
+````rust
+fn main() {
+    let x: i32 = 52; // type is i32, annotated
+    x = 53;
+}
+
+the rustc compiler will return
+```sh
+error: re-assignment of immutable variable `x`
+     x = 10;
+     ^~~~~~~
+````
