@@ -71,3 +71,17 @@ There are there type of the memory management methods:
 - Each Value in Rust has an owner
 - There can only be one owner at a time
 - When the owner goes out of the scope, the value will be dropped.
+
+### Variable and scope
+
+Declar a variable, rust will allocate the memory; when the the variable is out of scope, rust will automatically free the memory of this variable.
+
+## Syntax and Semantics
+
+### Variables Bindings
+
+```rust
+fn main() {
+    let x: i32 = 52;
+}
+```
