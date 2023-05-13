@@ -110,3 +110,43 @@ error: re-assignment of immutable variable `x`
      x = 10;
      ^~~~~~~
 ````
+
+binding the variable with mutable
+
+````rust
+fn main() {
+    let mut x: i32 = 52; // type is i32, annotated
+    x = 53;
+}
+
+### Function
+
+Function declaration
+
+```rust
+fn main() {}
+````
+
+With parameter
+
+```rust
+fun print_number(x: i32) {
+    println!("the number is: {}", x)
+}
+
+fn main() {
+    let x = 32;
+    printl_number(x)
+}
+```
+
+with a return type
+
+```rust
+fun sum(x: i32, y: i32) -> i32 {
+    return x + y;
+}
+fun main() {
+    println!("the number is: {}", sum(3,4));
+}
+```
